@@ -100,10 +100,14 @@ body {
 .img {
     width: 250px;
     margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    justify-content: center; 
+    align-items: center;
 }
 
 .img img {
-    width: 125%;
-    border-radius: 100%;
+    width: 100%;
+    border-radius: 15px;
 }
 
