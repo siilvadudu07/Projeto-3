@@ -4,7 +4,8 @@
   flex-direction: row;
   justify-content: center;
 
-  background-color: rgba(161, 23, 143, 0.5);
+  background: #EBA867;
+  background: linear-gradient(0deg,rgb(238, 163, 65) 0%, rgba(255, 203, 123, 1) 100%);
 
   position: fixed;
   top: 0%;
@@ -12,9 +13,11 @@
   right: 0%;
   z-index: 10;
 
-  height: 75px;
+  height: 45px;
 
-  padding: 1rem;
+  padding: 10px;
+
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.466);
 }
 
 .header_left_container {
@@ -23,9 +26,33 @@
   justify-content: center;
   
   flex: 0.5;
-  
-  
-  background-color: aqua;
+
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.home_button {
+
+  width: 50%;
+  height: auto;
+
+  border: 0;
+  border-radius: 5%;
+
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.466);
+
+  transition: all 200ms;
+
+}
+
+.home_button:hover {
+
+  color: wheat;
+  background-color: rgb(23, 10, 59);
+
+  width: 60%;
+
+  transition: all 200ms;
+
 }
 
 .header_center_container {
@@ -35,43 +62,83 @@
   justify-content: center;
   
   flex: 2;
+
+  text-align: center;
     
   font-size: 60px;
   
-
-  background-color: rgb(228, 8, 8);
+  background-color: rgba(228, 8, 8, 0);
     
 }
-  
+
+.page_title {
+
+  color: aliceblue;
+
+  text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.562);
+
+}
+
 .header_right_container {
   
   display: flex;
   justify-content: space-evenly;
     
   flex: 0.3;
-    
-  padding: 1rem;
   
-  background-color: aqua;
+  gap: 10px;
+  
+  background-color: rgba(0, 255, 255, 0);
 }
 
-.user_options_button {
+.user_profile_button {
+
+  width: 50%;
 
   border: 0;
-  border-radius: 50%;
+  border-radius: 5%;
 
-
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.466);
   
   height: auto;
 
+  transition: all 100ms;
 
 }
 
-.notifications_button {
+.user_profile_button:hover {
+
+  color: wheat;
+  background-color: rgb(23, 10, 59);
+
+  width: 70%;
+
+  transition: all 100ms;
+
+}
+
+.quit_account_button {
+
+  width: 50%;
 
   border: 0;
-  border-radius: 50%;
+  border-radius: 5%;
   
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.466);
+
   height: auto;
+
+  transition: all 100ms;
+
+}
+
+.quit_account_button:hover {
+
+  color: wheat;
+  background-color: rgb(23, 10, 59);
+
+  width: 70%;
+
+  transition: all 100ms;
 
 }

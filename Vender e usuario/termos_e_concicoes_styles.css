@@ -1,0 +1,47 @@
+body {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  background-image: url(background2.png);
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: repeat;
+
+  height: 100vh;
+
+  background-color: rgb(28, 5, 41);
+
+}
+
+.terms_and_cums {
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  width: 40%;
+  height: 80%;
+
+  margin: 0;
+
+  padding: 25px;
+
+  overflow: auto;
+
+  font-size: 17px;
+
+  border: 5px solid black;
+
+  background: #4c6a9e;
+  background: linear-gradient(0deg,rgba(76, 106, 158, 1) 0%, rgba(166, 224, 247, 1) 100%);
+
+}
+
+      
