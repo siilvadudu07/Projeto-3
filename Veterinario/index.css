@@ -32,7 +32,7 @@ body {
 
 button{
     box-shadow: 4px 4px 0px #000 ;
-    width: 375px;
+    width: 370px;
     height: 100px; 
     cursor: pointer;
 }
@@ -52,4 +52,9 @@ button{
 
 .caprinos_ovinos{
     background-color: gray;
+}
+
+.voltar{
+    background-color:white
+
 }
