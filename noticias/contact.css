@@ -1,0 +1,41 @@
+body {
+    background: rgb(255, 255, 255);
+    background-color: rgb(123, 230, 123);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h1 {
+    font-family: system-ui;
+    color: #20bb23;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+p {
+    color: aliceblue;
+    font-size: 24px;
+}
+.imagem-direita {
+    border-radius: center;
+    border-style: groove;
+    border-color: rgba(255, 127, 80, 0.532);
+    border-width: 7px;
+    width: 500px;
+    height: 300px;
+}
+.imagem-esquerda {
+    float: right;
+    border-radius: center;
+    border-style: groove;
+    border-color: rgba(255, 127, 80, 0.532);
+    width: 500px;
+    height: 300px;
+    border-width: 7px;
+}
+h1 {
+    font-family: system-ui;
+    color: #20bb23;
+    text-align: center;
+    overflow: hidden;
+}
