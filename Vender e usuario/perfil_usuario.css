@@ -1,0 +1,253 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    background-image: url(background3.png);
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: repeat;
+
+    background-color: rgb(23, 6, 50);
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.user_profile_container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 80%;
+
+    padding: 2%;
+    
+    box-sizing: border-box;
+
+    gap: 25px;
+
+    border: 3px solid black;
+    border-radius: 20px;
+
+    box-shadow: 0px 5px 3px blue;
+
+    background: #EBA867;
+    background: linear-gradient(0deg,rgb(238, 163, 65) 0%, rgba(255, 203, 123, 1) 100%);
+
+}
+
+.user_picture_description_container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    flex: 1;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    padding: 2%;
+
+    gap: 35px;
+
+}
+
+.user_profile_picture {
+
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+
+    padding: 5px;
+
+    border-radius: 10px;
+    border: 5px solid;
+
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.466);
+
+    background: linear-gradient(0deg,rgb(238, 163, 65) 0%, rgba(255, 203, 123, 1) 100%);;
+
+}
+
+.user_information_container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    flex: 2;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    padding: 2%;
+
+    gap: 20px;
+
+    border-radius: 25px;
+
+    box-shadow: 0px 5px 2px black;
+
+    background-color: rgb(107, 187, 233);
+
+}
+
+.profile_name_container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    gap: 20px;
+
+
+}
+
+.user_name {
+
+    padding-left: 9px;
+    flex: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: 15px;
+
+    border: 0;
+    border-radius: 10px;
+
+    box-shadow: 0px 3px 5px rgba(4, 4, 95, 0.822);
+
+    background-color: aliceblue;
+
+}
+
+.user_email_container {
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+
+    width: 80%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.user_email {
+
+    padding-left: 9px;
+    flex: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: 15px;
+
+    border: 0;
+    border-radius: 10px;
+
+    box-shadow: 0px 3px 5px rgba(4, 4, 95, 0.822);
+
+    background-color: aliceblue;
+
+}
+
+.specialization_container {
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+
+    width: 80%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.address_container {
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+
+    width: 80%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.favorite_items_container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
+    
+    width: 100%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.favorite_item {
+
+    max-width: 25%;
+    height: auto;
+
+
+    padding: 5px;
+    border-radius: 5px;
+
+    box-shadow: 0px 3px 2px rgba(4, 4, 95, 0.822);
+
+    background-color: rgb(171, 201, 228);
+
+}
+
+.descriptor {
+
+    padding-left: 9px;
+    flex: 0.2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    height: 100;
+
+    font-size: 15px;
+
+    border: 0;
+    border-radius: 10px;
+
+    box-shadow: 0px 3px 5px rgba(4, 4, 95, 0.822);
+
+    background-color: aliceblue;
+
+}
