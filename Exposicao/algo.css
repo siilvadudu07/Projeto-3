@@ -52,7 +52,7 @@ p {
     border-radius: 10%;
 }
 
-div1, div2, div3, div4, div5, div6 {
+div1, div2, div3, div4, div5, div6{
     background-color: #1c1c1c; 
     padding: 30px;
     margin-top: 40px;
@@ -70,3 +70,17 @@ div2 img, div3 img, div4 img, div5 img {
     margin: 0 auto;
 }
 
+.container2{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px;
+    height: 300px;
+}
+
+
+img {
+    width: 60px;
+    margin: 0 auto;
+    border-radius: 50px;
+    height: auto;
+}
