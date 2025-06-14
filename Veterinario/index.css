@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background-color: mediumseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.redondo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.quadrado{
+
+    width: 650px ;
+    height: 400px;
+    border-radius: 10px
+    
+       
+}
+
+.borda{
+    border-radius: 10px
+}
+
+button{
+    box-shadow: 4px 4px 0px #000 ;
+    width: 350px;
+    height: 100px; 
+    cursor: pointer;
+}
+
+
+.bovino{
+    background-color: brown;
+}
+
+.suino{
+    background-color: pink;
+}
+
+.aves{
+    background-color: rgb(46, 169, 197);
+}
+
+.caprinos_ovinos{
+    background-color: gray;
+}
+
+.voltar{
+    background-color:white
+
+}
+
+.container{
+    padding: 0px 50px;
+}
